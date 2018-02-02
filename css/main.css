@@ -1,0 +1,52 @@
+.hidden
+{
+  display: none;
+}
+
+body
+{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#container
+{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#mainHeader
+{
+  height: 220px;
+	width: 980px;
+}
+
+
+#mainNav
+{
+  width: 560px;
+	float: right;
+  margin-top: 45px;
+  margin-right: 50px;
+}
+
+#mainNav ul
+{
+  float: right;
+	list-style-type: none;
+	padding: 0;
+}
+
+#mainNav ul li
+{
+  display: inline;
+	margin-left: 25px;
+	font-size: 20px;
+  background-color: #efefef;
+  padding: 15px;
+}
+
+#mainContent
+{
+  float: left;
+  text-align: center;
+}
