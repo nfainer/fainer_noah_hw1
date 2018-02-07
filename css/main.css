@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .hidden
 {
   display: none;
@@ -29,14 +31,14 @@ a
 {
   width: 960px;
   margin: 0 auto;
-  background-color: #f4ebdc;
+  background-color: #efefef;
   overflow: hidden;
 }
 
 #mainHeader
 {
-  height:180px;
-	width: 952px;
+  height:120px;
+	width: 950px;
   position: fixed;
   background-color: #f4ebdc;
   border-style: ridge;
@@ -45,17 +47,17 @@ a
 
 #mainLogo
 {
-  width: 300px;
-  height: 160px;
+  width: 250px;
   position: fixed;
+  margin-left: 20px;
 }
 
 #mainNav
 {
   margin-right: 200px;
-  margin-left: 550px;
+  margin-left: 325px;
 	position: fixed;
-  margin-top: 50px;
+  margin-top: 15px;
   border-width: 5px;
   border-style: ridge;
   box-shadow: 5px 10px 5px #03414e;
@@ -67,6 +69,7 @@ a
 	list-style-type: none;
 	padding: 25px;
   background-color: #f6c7a9;
+  width: 475px;
 }
 
 #mainNav ul li
@@ -75,6 +78,7 @@ a
 	font-size: 20px;
   padding: 15px;
   border-width: 1px;
+  margin-left: 45px;
   border-style: ridge;
 }
 
@@ -83,10 +87,6 @@ a
   background-color: #E0654F;
 }
 
-.selected
-{
-  background-color: #E0654F;
-}
 
 #mainContent
 {
@@ -104,6 +104,7 @@ a
   float:left;
   width: 860px;
   margin-top: 50px;
+  margin-left: 25px;
 }
 
 #mainFooter
@@ -133,6 +134,7 @@ a
 	list-style-type: none;
 	padding: 15px;
   background-color: #f6c7a9;
+  width: auto;
 }
 
 #footerNav ul li
@@ -140,7 +142,7 @@ a
   display: inline;
 	font-size: 20px;
   padding: 2px;
-  margin-left: 150px;
+  margin-left: 100px;
   border-width: 1px;
   border-style: ridge;
 }
@@ -149,6 +151,7 @@ a
 {
   background-color: #E0654F;
 }
+
 
 /* Work page starts here*/
 
@@ -167,4 +170,28 @@ a
   border-width: 3px;
   border-style: ridge;
   margin-left: 5px;
+}
+
+/*education page starts here*/
+
+
+#education
+{
+  text-align:center;
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+#education2
+{
+  text-align: center;
+  font-size: 20px;
+}
+
+.schoolimg
+{
+  margin-top: 150px;
+  float: left;
+  width: 350px;
+  margin-left: 75px;
 }
